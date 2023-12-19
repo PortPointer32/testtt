@@ -13,7 +13,7 @@ from create_main_bot import dp, bot
 from cfg.database import Database
 
 
-db = Database('/home/str/test/cfg/database')
+db = Database('/home/str/testtt/cfg/database')
 scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
 scheduler.start()
 

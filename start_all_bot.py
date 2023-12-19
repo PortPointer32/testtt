@@ -21,7 +21,7 @@ from telegram_bot.utils import StatesUsers
 from cfg.database import Database
 
 
-db = Database('/home/str/4ant/cfg/database')
+db = Database('/home/str/testtt/cfg/database')
 
 
 async def start_bot(dp):

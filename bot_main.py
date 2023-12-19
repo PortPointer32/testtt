@@ -9,7 +9,7 @@ from create_main_bot import dp
 from cfg.database import Database
 from main_telegram_bot import Admin
 
-db = Database('/home/str/test/cfg/database')
+db = Database('/home/str/testtt/cfg/database')
 
 
 async def shutdown(dispatcher: Dispatcher):
@@ -24,6 +24,6 @@ def main():
 
 
 if __name__ == '__main__':
-    subprocess.Popen(["/home/str/test/.venv/bin/python", "/home/str/test/telegram_bot/monitor.py"])
+    subprocess.Popen(["/home/str/testtt/.venv/bin/python", "/home/str/testtt/telegram_bot/monitor.py"])
 
     main()
